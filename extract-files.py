@@ -43,6 +43,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libshim_sensorndkbridge.so')
         .add_needed('libutils-v32.so')
         .binary_regex_replace(b'_ZN7android6Thread3runEPKcim', b'_ZN7utils326Thread3runEPKcim'),
+    'vendor/bin/hw/gpsd': blob_fixup()
+        .binary_regex_replace(b'libcrypto.so', b'libcryptx.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
