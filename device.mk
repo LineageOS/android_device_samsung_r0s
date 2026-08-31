@@ -7,6 +7,8 @@
 PRODUCT_PACKAGES += \
     mixer_paths.xml
 
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/r0s:lib_SoundBooster_ver1100)
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor
