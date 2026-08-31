@@ -16,7 +16,8 @@ $(call soong_config_set,samsungCameraVars,extra_ids,52)
 
 # Init
 PRODUCT_PACKAGES += \
-    init.r0s.rc
+    init.r0s.rc \
+    init.s5e9925.rgb.rc
 
 # NFC
 BOARD_HAVE_NXP_NFC := true
