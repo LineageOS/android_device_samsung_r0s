@@ -16,6 +16,10 @@ PRODUCT_PACKAGES += \
 # Camera (ID 52 -> telephoto)
 $(call soong_config_set,samsungCameraVars,extra_ids,52)
 
+# Display
+PRODUCT_PACKAGES += \
+    displayconfig.xml
+
 # Init
 PRODUCT_PACKAGES += \
     init.r0s.rc \
