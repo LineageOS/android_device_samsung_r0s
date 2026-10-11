@@ -1,5 +1,5 @@
-# All unpinned blobs are from S901BXXSNGZD7
-# Vendor security patch level 2026-05-01
+# All unpinned blobs are from S901BXXSOGZH3
+# Vendor security patch level 2026-08-05
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
