@@ -45,7 +45,7 @@
 
     <highBrightnessMode enabled="true">
         <transitionPoint>0.5</transitionPoint>
-        <minimumLux>4000</minimumLux>
+        <minimumLux>5000</minimumLux>
         <timing>
             <timeWindowSecs>0</timeWindowSecs> // Window in which we restrict HBM.
             <timeMaxSecs>0</timeMaxSecs>        // Maximum time of HBM allowed in that window.
